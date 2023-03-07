@@ -8,12 +8,12 @@ export default function Home() {
         <title>DeMolay Palhoça</title>
         <meta name="description" content="Capítulo Palhoça Nº 516 DeMolay SC Website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
 
       <main>
-        Capítulo Palhoça Nº 516
-        <Image src="logo.png" width={300} height={300} alt="logo" />
+        <Image src="/logo.png" width={300} height={300} alt="logo" />
+        <h1>Capítulo Palhoça Nº 516</h1>
       </main>
     </>
   )
